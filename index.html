@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Project 1</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/css.css">
+    <script type="text/javascript" src="js/data.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+    <div class="main">
+        <h1>Welcome to CellPhone Shop</h1>
+            <div class="formArea">
+                <form id='mobile'>
+                    <select name="selectMenu" onchange="selectDropDownMenu( value );">
+                        <option value="start">Please select a carrier</option>
+                        <option value="verizon">Verizon Wireless</option>
+                        <option value="att">ATT</option>
+                        <option value="tm">T-Mobile</option>
+                    </select>
+                </form>
+            <form id='phoneCompany'></form>
+            <form id='phoneModel'></form>
+        </div>
+        <div id="phoneResult"></div>
+    </div>
+</body>
+</html>
